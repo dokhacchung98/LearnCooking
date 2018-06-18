@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sas"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="Giỏ hàng của bạn gồm những nguyên liệu gì để chế biến món ăn ngày hôm nay"
+        android:textColor="@color/colorbg"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvGioHang"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_marginBottom="8dp"
+        android:background="#7cffffff" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:minHeight="15dp"
+        android:textColorHint="#000">
+
+        <EditText
+            android:id="@+id/edtNguyenLieu"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/background_editext"
+            android:drawablePadding="15dp"
+            android:drawableTint="#fff"
+            android:focusedByDefault="false"
+            android:hint="Nguyên liệu..."
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorbg"
+            android:textColorHint="#000" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:minHeight="15dp"
+        android:textColorHint="#000">
+
+        <EditText
+            android:id="@+id/edtSoLuong"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/background_editext"
+            android:drawableTint="#fff"
+            android:focusedByDefault="false"
+            android:hint="Số lượng..."
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorbg"
+            android:textColorHint="#000" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnXong"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button"
+            android:gravity="center"
+            android:text="Đã Xong"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button"
+            android:gravity="center"
+            android:text="Thêm"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

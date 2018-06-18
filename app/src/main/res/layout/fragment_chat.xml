@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lvChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/a"
+        android:divider="@null"
+        android:dividerHeight="5dp" />
+
+    <FrameLayout
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#565656"
+            android:gravity="center"
+            android:text="Bạn cần đăng nhập để thảo luận"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/lnChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorbg"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:visibility="invisible">
+
+            <EditText
+                android:id="@+id/edtChat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="10"
+                android:background="@drawable/background_editext1"
+                android:hint="Nội dung chat..."
+                android:padding="10dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnChat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_menu_send"
+                android:backgroundTint="#fff" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

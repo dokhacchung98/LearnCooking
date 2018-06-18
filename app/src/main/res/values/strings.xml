@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">"LearnCooking"</string>
+    <string name="register">"Đăng Ký"</string>
+    <string name="login">"Đăng Nhập"</string>
+    <string name="welcome">"Xin Chào"</string>
+    <string name="title_activity_main22">Main22Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="recent_new">Title O Day</string>
+
+</resources>

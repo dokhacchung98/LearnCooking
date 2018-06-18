@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        barColorWhenSelected="#d50000"
+        icon="@drawable/ic_home"
+        iconSize="16dp"
+        id="@+id/tab_home"
+        title="Trang Chủ" />
+    <tab
+        barColorWhenSelected="#d50000"
+        icon="@drawable/ic_favorite"
+        iconSize="32dp"
+        id="@+id/tab_favorite"
+        title="Yêu Thích" />
+    <tab
+        barColorWhenSelected="#d50000"
+        icon="@drawable/ic_search"
+        iconSize="32dp"
+        id="@+id/tab_search"
+        title="Tìm Kiếm" />
+</tabs>
